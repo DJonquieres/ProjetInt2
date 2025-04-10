@@ -10,8 +10,8 @@ const int LEFT_MOTOR_IN1 = 25;
 const int LEFT_MOTOR_IN2 = 26;
 const int RIGHT_MOTOR_IN1 = 27;
 const int RIGHT_MOTOR_IN2 = 14;
-const int LEFT_PWM = 32;
-const int RIGHT_PWM = 16;
+const int LEFT_PWM = 2;    // ENA
+const int RIGHT_PWM = 33;    //ENB
 
 // === Forklift Motor Driver Pins ===
 const int FORKLIFT_IN1 = 19;
@@ -19,7 +19,7 @@ const int FORKLIFT_IN2 = 21;
 const int FORKLIFT_PWM = 22;
 
 // === PWM Channels ===
-const int LEFT_PWM_CH = 0;
+const int LEFT_PWM_CH = 10;
 const int RIGHT_PWM_CH = 1;
 const int FORKLIFT_PWM_CH = 2;
 
@@ -147,4 +147,3 @@ void loop() {
 
   delay(10);
 }
-
